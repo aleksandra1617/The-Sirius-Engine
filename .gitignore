@@ -356,3 +356,4 @@ MigrationBackup/
 *.pdb
 *.tlog
 *.log
+*.tlog
