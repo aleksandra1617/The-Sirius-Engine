@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Graphics System">
+      <UniqueIdentifier>{698a0c79-ef20-49c3-b5cb-5e3fe4c47c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics System">
+      <UniqueIdentifier>{278ffbaf-426a-4523-853a-e0de0300b61a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Demo">
+      <UniqueIdentifier>{1c8b5c93-962b-4222-907d-ce6fec8c8b10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Graphics System</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderHandler.cpp">
+      <Filter>Graphics System</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Game Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Game Demo</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Physics System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Graphics.h">
+      <Filter>Graphics System</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderHandler.h">
+      <Filter>Graphics System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Game Demo</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physics System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
