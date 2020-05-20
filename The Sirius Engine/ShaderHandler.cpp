@@ -4,8 +4,6 @@
 // Using an initialisation list here because it's faster than _program = 0
 // (only works for constructors)
 ShaderHandler::ShaderHandler() : _program(0){}
-
-
 ShaderHandler::~ShaderHandler(){}
 
 
